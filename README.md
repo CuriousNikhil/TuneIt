@@ -45,10 +45,10 @@ Use the following cod snippet to create your own tone
 Initialise or assign 
 <code>frequency</code> as <code>int</code><br>
 <code>duration</code> as <code>int</code><br>
-<code>volume</code> as <code>float (ex: 1.0f for max volume)</code>
-Refer to sample <a href="https://github.com/CuriousNikhil/TuneIt/blob/master/app/src/main/java/xyz/mystikolabs/tuneittest/MainActivity.java">app</a><br>
+<code>volume</code> as <code>float (ex: 1.0f for max volume)</code><br><br>
+Refer to sample <a href="https://github.com/CuriousNikhil/TuneIt/blob/master/app/src/main/java/xyz/mystikolabs/tuneittest/MainActivity.java">app</a><br><br><br>
 
-Yes you are done! Make your own piyano/casio or flute whatever !!
+Yes you are done! Make your own piyano/casio or flute whatever !!<br>
 Any forks/suggestions are always welcome! I am focusing on how to make this library integrated ove AI to generate music.
 
 
