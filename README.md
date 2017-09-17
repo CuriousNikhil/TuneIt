@@ -49,6 +49,6 @@ Initialise or assign
 Refer to sample <a href="https://github.com/CuriousNikhil/TuneIt/blob/master/app/src/main/java/xyz/mystikolabs/tuneittest/MainActivity.java">app</a><br><br><br>
 
 Yes you are done! Make your own piyano/casio or flute whatever !!<br>
-Any forks/suggestions are always welcome! I am focusing on how to make this library integrated ove AI to generate music.
+Any forks/suggestions are always welcome! Focusing on integrating this library with AI to generate music on android.
 
 
