@@ -29,4 +29,21 @@ allprojects {
 Tadaa!! now you are set to make some noise ,yeah!!
 
 
+<h4>step3</h4>
+Use the following cod snippet to create your own tone
+<pre>
+<code>
+                    TuneIt.getInitialised().create(frequency, duration, volume, new StopToneListener() {
+                        @Override
+                        public void onTrackStopped() {
+			    //tack playing stopped !
+                            Toast.makeText(MainActivity.this, "Track stopped!", Toast.LENGTH_SHORT).show();
+                        }
+                    });
+</code>
+</pre>
+Initialise or assign 
+<code>frequency</code> as <code>int</code>
+<code>duration</code> as <code>int</code>
+
 
