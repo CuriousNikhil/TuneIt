@@ -5,5 +5,28 @@
 TuneIt is an android library that let's you to create awesome PCM (Pulse-Code Modulation 16 bit) tones in your app!
 The setup is very easy just follow the following steps:
 
-<h3>step1</h3>
-Add the following dependency in your <code>app/buidl.gradle</code> file
+<h4>step1</h4>
+Add the JitPack repository to your build file
+<pre>
+<code> 
+allprojects {
+		repositories {
+			...
+			maven { url 'https://www.jitpack.io' }
+		}
+	}
+  </code>
+</pre>
+<h4>step2</h4>
+ Add the following dependency in your <code>app/build.gradle</code> file
+ <pre>
+ <code>
+ 	dependencies {
+	        compile 'com.github.CuriousNikhil:TuneIt:1.0'
+	}
+ </code>
+ </pre>
+Tadaa!! now you are set to make some noise ,yeah!!
+
+
+
