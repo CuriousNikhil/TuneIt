@@ -11,6 +11,7 @@ package xyz.mystikolabs.tuneit;
 public class Frequency {
 
 
+    public static int C =  261;
 
 
 
