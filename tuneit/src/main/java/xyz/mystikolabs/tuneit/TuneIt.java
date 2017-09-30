@@ -58,7 +58,7 @@ public class TuneIt {
                     stop();
 
                 }
-            },duration*10);
+            },duration*1000);
 
         }
 
