@@ -31,78 +31,78 @@
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:weightSum="3">
 
-            <EditText
+        <TextView
+
+            android:textSize="18sp"
+            android:textColor="@color/colorAccent"
+            android:text="Frequency (in Hz)"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/fab_margin"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <SeekBar
+                android:min="131"
+                android:max="494"
                 android:id="@+id/frequency"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textColor="@color/colorAccent"
-                android:textColorHint="@color/colorAccent"
-                android:textSize="24sp" />
+                android:layout_weight="1.8"
+                android:layout_height="wrap_content" />
 
-            <EditText
+            <TextView
+                android:autofillHints="@string/list_tone"
+                android:id="@+id/hertz"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp"
+                android:text="0"
+                android:layout_weight="0.2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+
+
+        <TextView
+            android:textSize="18sp"
+            android:textColor="@color/colorAccent"
+            android:text="Duration (in sec)"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_marginTop="@dimen/fab_margin"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <SeekBar
+                android:max="10"
                 android:id="@+id/duration"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textColor="@color/colorAccent"
-                android:textColorHint="@color/colorAccent"
-                android:textSize="24sp" />
+                android:layout_weight="1.8"
+                android:layout_height="wrap_content" />
 
-            <EditText
-                android:id="@+id/volume"
+            <TextView
+                android:id="@+id/seconds"
+                android:textColor="@color/colorAccent"
+                android:textSize="16sp"
+                android:text="0"
+                android:layout_weight="0.2"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textColor="@color/colorAccent"
-                android:textColorHint="@color/colorAccent"
-                android:textSize="24sp" />
-
+                android:layout_height="wrap_content" />
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="4dp"
-            android:orientation="horizontal"
-            android:weightSum="3">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Frequency"
-                android:textAlignment="center"
-                android:textColor="@color/colorAccent"
-                android:textSize="18sp" />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Duration"
-                android:textAlignment="center"
-                android:textColor="@color/colorAccent"
-                android:textSize="18sp" />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Volume"
-                android:textAlignment="center"
-                android:textColor="@color/colorAccent"
-                android:textSize="18sp" />
-
-
-        </LinearLayout>
 
 
         <Button
@@ -115,6 +115,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
+        <TextView
+            android:layout_marginTop="8dp"
+            android:text="I have set the volume to max=1.0f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
 
     </LinearLayout>
 

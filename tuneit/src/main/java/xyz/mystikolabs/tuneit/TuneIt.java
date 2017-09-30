@@ -41,7 +41,7 @@ public class TuneIt {
 
 
     //generate the sound by calling this method over the instance of the cl
-    /*
+    /**
     * @params frequency,duration, toneStoppedlistener and volume
     **/
     public void create(int frequency,int duration,float volume,StopToneListener listener){
@@ -58,7 +58,7 @@ public class TuneIt {
                     stop();
 
                 }
-            },duration*1000);
+            },duration*10);
 
         }
 

@@ -1,4 +1,20 @@
 <resources>
     <string name="app_name">TuneItTest</string>
     <string name="action_settings">Settings</string>
+    <string name="list_tone">
+
+        <item>261</item>
+        <item>277</item>
+        <item>294</item>
+        <item>311</item>
+        <item>329</item>
+        <item>349</item>
+        <item>370</item>
+        <item>392</item>
+        <item>415</item>
+        <item>440</item>
+        <item>466</item>
+        <item>494</item>
+
+    </string>
 </resources>
