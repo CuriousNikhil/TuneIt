@@ -43,7 +43,7 @@ Use the following cod snippet to create your own tone
 </code>
 </pre>
 
-Now in <pre>version 1.0.1</pre> Added a new utility class <pre>Frequency</pre><br>
+Now in <code>version 1.0.1</code> Added a new utility class <code>Frequency</code><br>
 You can use three octave frequencies of sound <br>
 1.LOW <br>
 2. MID<br>
@@ -52,7 +52,7 @@ You can use three octave frequencies of sound <br>
 Just put Frequency class constants at frequency argument<br>
 If you want MID level put MID and follwoed by underscore + tone frequency <br>
 Ex:<br>
-<code>Frequency.MID_C<code> or <code>Frequency.HIGH_C_SHARP</code> or <code>Frequency.LOW_A_SHARP</code><br>
+<code>Frequency.MID_C</code> or <code>Frequency.HIGH_C_SHARP</code> or <code>Frequency.LOW_A_SHARP</code><br>
 You can access all the tones of octave from <code>Frequency class</code><br>
 <br>
 If you want to play specific note from the specific frequency octave, It's added in Frequency Class.<br>
