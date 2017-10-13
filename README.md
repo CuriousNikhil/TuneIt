@@ -22,7 +22,7 @@ allprojects {
  <pre>
  <code>
  	dependencies {
-	        compile 'com.github.CuriousNikhil:TuneIt:1.0'
+	        compile 'com.github.CuriousNikhil:TuneIt:1.0.1'
 	}
  </code>
  </pre>
@@ -42,10 +42,46 @@ Use the following cod snippet to create your own tone
                     });
 </code>
 </pre>
+
+Now in <pre>version 1.0.1</pre> Added a new utility class <pre>Frequency</pre><br>
+You can use three octave frequencies of sound <br>
+1.LOW <br>
+2. MID<br>
+3.HIGh <br>
+
+Just put Frequency class constants at frequency argument<br>
+If you want MID level put MID and follwoed by underscore + tone frequency <br>
+Ex:<br>
+<code>Frequency.MID_C<code> or <code>Frequency.HIGH_C_SHARP</code> or <code>Frequency.LOW_A_SHARP</code><br>
+You can access all the tones of octave from <code>Frequency class</code><br>
+<br>
+If you want to play specific note from the specific frequency octave, It's added in Frequency Class.<br>
+And you can do it as follows:<br>
+<pre>
+	<code>
+		
+	/*
+	You can just set frequency to 
+	Frequency.MID_C and similarly MID_A, MID_B, MID_D, MID_F
+	*/
+		
+		TuneIt.getInitialised().create(Frequency.MID_C, duration, volume, new StopToneListener() {
+                        @Override
+                        public void onTrackStopped() {
+			    //tack playing stopped !
+                           //...
+			   //...
+                        }
+                    });
+	
+	</code>
+</pre>
+
+
 Initialise or assign 
 <code>frequency</code> as <code>int</code><br>
 <code>duration</code> as <code>int</code><br>
-<code>volume</code> as <code>float (ex: 1.0f for max volume)</code><br><br>
+<code>volume</code> as <code>double (ex: 1.0f for max volume)</code><br><br>
 Refer to sample <a href="https://github.com/CuriousNikhil/TuneIt/blob/master/app/src/main/java/xyz/mystikolabs/tuneittest/MainActivity.java">app</a><br><br><br>
 
 Yes you are done! Make your own piyano/casio or flute whatever !!<br>
