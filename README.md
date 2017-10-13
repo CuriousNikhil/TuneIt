@@ -45,9 +45,11 @@ Use the following cod snippet to create your own tone
 
 Now in <code>version 1.0.1</code> Added a new utility class <code>Frequency</code><br>
 You can use three octave frequencies of sound <br>
+<code>
 1.LOW <br>
-2. MID<br>
-3.HIGh <br>
+2.MID<br>
+3.HIGH <br>
+</code>
 
 Just put Frequency class constants at frequency argument<br>
 If you want MID level put MID and follwoed by underscore + tone frequency <br>
