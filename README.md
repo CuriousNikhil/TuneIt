@@ -1,7 +1,10 @@
 # TuneIt
 
 [![](https://www.jitpack.io/v/CuriousNikhil/TuneIt.svg)](https://www.jitpack.io/#CuriousNikhil/TuneIt)
+<br>
+<br>
 TuneIt is an android library that let's you to create awesome PCM (Pulse-Code Modulation 16 bit) tones in your app!
+<br>
 The setup is very easy just follow the following steps:
 
 <h4>step1</h4>
@@ -92,6 +95,7 @@ Refer to sample <a href="https://github.com/CuriousNikhil/TuneIt/blob/master/app
 
 Yes you are done! Make your own piyano/casio or flute whatever !!<br>
 Any forks/suggestions are always welcome! Focusing on integrating this library with AI to generate music on android.
+<br>
 
 <pre>
 MIT License
